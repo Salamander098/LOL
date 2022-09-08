@@ -1,0 +1,37 @@
+echo "# LOL" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Salamander098/LOL.git
+# Python 3: List comprehensions
+>>> fruits = ['Banana', 'Apple', 'Lime']
+>>> loud_fruits = [fruit.upper() for fruit in fruits]
+>>> print(loud_fruits)
+['BANANA', 'APPLE', 'LIME']
+
+# List and the enumerate function
+>>> list(enumerate(fruits))
+[(0, 'Banana'), (1, 'Apple'), (2, 'Lime')]
+About
+ 
+Downloads
+ 
+Documentation
+ 
+Community
+ 
+Success Stories
+ 
+News
+ 
+Events
+>_Launch Interactive Shell
+# Python 3: Simple arithmetic
+>>> 1 / 2
+0.5
+>>> 2 ** 3
+8
+>>> 17 / 3  # classic division returns a float
+5.666666666666667
+>>> 17 // 3  # floor division
